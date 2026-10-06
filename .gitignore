@@ -16,5 +16,3 @@ actions/hotel_cache.json
 
 # Mac and editor files
 .DS_Store
-.claude/
-.agents/
