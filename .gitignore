@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python environments (huge, and everyone creates their own)
+rasa-env/
+streamlit-env/
+venv/
+
+# Files that are created automatically
+models/
+results/
+.rasa/
+__pycache__/
+*.pyc
+actions/hotel_cache.json
+
+# Mac and editor files
+.DS_Store
+.claude/
+.agents/

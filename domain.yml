@@ -1,0 +1,32 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - thanks
+  - inform
+  - request_human
+  - start_over
+  - ask_weather
+
+entities:
+  - cmd     # set by Streamlit buttons, e.g. /inform{"cmd": "dates", "value": "..."}
+  - value
+  - city    # extracted from free text by the NLU model
+
+slots:
+  # The whole trip lives in one structured slot, managed by action_trip_planner.
+  trip:
+    type: any
+    influence_conversation: false
+    mappings:
+      - type: custom
+
+actions:
+  - action_trip_planner
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

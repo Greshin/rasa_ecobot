@@ -1,0 +1,131 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hi
+      - hello
+      - hey
+      - hey there
+      - good morning
+      - good evening
+      - hiya
+      - hello there
+      - hi bot
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you later
+      - that's all, bye
+      - catch you later
+      - bye for now
+
+  - intent: affirm
+    examples: |
+      - yes
+      - yep
+      - yeah
+      - looks good
+      - that's right
+      - correct
+      - sounds good
+      - perfect
+      - sure
+      - ok
+      - okay
+      - I'm happy with it
+      - great, go ahead
+
+  - intent: deny
+    examples: |
+      - no
+      - nope
+      - not really
+      - no thanks
+      - skip
+      - not now
+      - I don't want that
+
+  - intent: thanks
+    examples: |
+      - thanks
+      - thank you
+      - cheers
+      - thanks a lot
+      - thank you so much
+      - much appreciated
+
+  - intent: request_human
+    examples: |
+      - can I speak to a human?
+      - I need to talk to an advisor
+      - can someone help me book this?
+      - I'd like to speak to a real person
+      - talk to a human
+      - connect me to an agent
+      - I want a real person
+      - is there a person I can talk to
+      - put me through to customer service
+      - can a travel advisor help me
+
+  - intent: start_over
+    examples: |
+      - start over
+      - new trip
+      - let's start again
+      - reset
+      - plan another trip
+      - start from scratch
+
+  - intent: ask_weather
+    examples: |
+      - what's the weather like?
+      - what will the weather be like
+      - how's the weather there
+      - weather forecast
+      - will it rain?
+      - is it going to be sunny
+      - how warm will it be
+      - what's the temperature there
+      - should I pack a raincoat
+      - check the weather for my trip
+
+  - intent: inform
+    examples: |
+      - I want to go to [Paris](city)
+      - [Amsterdam](city)
+      - [Edinburgh](city) please
+      - I'm heading to [Barcelona](city)
+      - to [Rome](city) next weekend
+      - I want to go to [Paris](city) next weekend with my partner
+      - from [London](city) to [Amsterdam](city)
+      - I'm leaving from [Manchester](city)
+      - starting in [Berlin](city)
+      - we are going to [Copenhagen](city) for 3 nights
+      - a trip to [Vienna](city) with my family
+      - [Lisbon](city) for a week
+      - I live in [Bristol](city)
+      - somewhere near [Munich](city)
+      - fly me to [New York](city)
+      - [Prague](city) and then [Vienna](city)
+      - we're 4 people
+      - there are 3 of us
+      - just me
+      - with my partner
+      - with 2 friends
+      - my budget is 300
+      - under 200 euros per person
+      - next weekend
+      - this weekend
+      - for 5 nights
+      - I'm not sure about the dates yet
+      - change my dates
+      - change the destination
+      - I want to change where I start
+      - change transport
+      - different hotel
+      - my name is Sarah
+      - I'm Tom
+      - call me Greg
